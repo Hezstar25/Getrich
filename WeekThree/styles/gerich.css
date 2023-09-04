@@ -1,0 +1,94 @@
+body {
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    margin-left: 400px;
+    margin-top: 5px;
+    flex-direction: row;
+    font-family: 'Open sans', sans-serif;
+}
+
+header {
+    height: 7.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    line-height: 3.5625rem;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.uull {
+    margin-right: 3.125rem;
+}
+
+.ull li a {
+    padding: 0px 0.625rem;
+}
+
+.logreg {
+    margin-right: 3.125rem;
+}
+
+.logreg li {
+    padding: 0rem 1.25rem 0rem 1.25rem;
+
+}
+
+.menu {
+    display: none;
+}
+
+.menuitems {
+    display: none;
+}
+
+.Hero {
+    display: flex;
+    width: 45%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 6.25rem;
+}
